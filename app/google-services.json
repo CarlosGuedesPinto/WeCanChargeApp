@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "930946763883",
+    "firebase_url": "https://we-can-charge.firebaseio.com",
+    "project_id": "we-can-charge",
+    "storage_bucket": "we-can-charge.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:930946763883:android:eb129b8a240c66d3b9352e",
+        "android_client_info": {
+          "package_name": "com.example.wecanchargeapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "930946763883-lk4a1thjsdebc5hpa757qhrf6pi2bo2a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.wecanchargeapp",
+            "certificate_hash": "4b1d1d7512c57aab38eb0620219a87711ae46562"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcbYOv65ABRdrPHAFW2PMw2s-bsGJmBgg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

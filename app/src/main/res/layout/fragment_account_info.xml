@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.profile.settings.Account">
+
+    <!-- TODO: Update blank fragment layout -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        app:cardCornerRadius="10dp"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF"
+            android:padding="24dp">
+
+            <TextView
+                android:id="@+id/txtEditAccount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:text="Edit Account Info"
+                android:textColor="#454F63"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/nameEdit"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="50dp"
+                android:ems="10"
+                android:hint="Name"
+                android:textAllCaps="false"
+                android:textColor="#454F63"
+                android:textColorHint="#454F63"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/emailEdit"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="116dp"
+                android:ems="10"
+                android:hint="Email"
+                android:textColor="#454F63"
+                android:textColorHint="#454F63"
+                android:textStyle="bold" />
+
+
+            <Button
+                android:id="@+id/editBut"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="390dp"
+                android:background="#454F63"
+                android:textColor="#ffffff"
+                android:layout_weight="2"
+                android:text="Editar" />
+
+            <Button
+                android:id="@+id/editProfilePic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="325dp"
+                android:background="#454F63"
+                android:textColor="#ffffff"
+                android:text="+" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="300dp"
+                android:text="Change Profile Picture" />
+
+            <ImageView
+                android:id="@+id/profilePicView"
+                android:layout_width="82dp"
+                android:layout_height="83dp"
+                android:layout_marginTop="200dp"
+                tools:src="@tools:sample/avatars" />
+
+            <Button
+                android:id="@+id/logoutBut"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="390dp"
+                android:layout_marginLeft="200dp"
+                android:background="#454F63"
+                android:textColor="#ffffff"
+                android:text="Logout" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+</FrameLayout>
