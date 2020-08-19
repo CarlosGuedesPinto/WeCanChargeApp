@@ -22,7 +22,7 @@ A version with low quality gif parts can be found at: [Behance 2](https://www.be
 
 This application was developed in Android Studio using Java. In addition to being able to see the entire code of the project in this repository, you can also test the application on your mobile phone using this [APK](WeCanCharge.apk) and see a small demo in the following video.
 
-[![We Can Charge video demo](http://img.youtube.com/vi/EIzazUv2gtI/0.jpg)](https://www.youtube.com/watch?v=EIzazUv2gtI)
+[![We Can Charge video demo]](https://youtu.be/t2dhFH1JO7Q)
 
 ## Authors
 
